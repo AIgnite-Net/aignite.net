@@ -1,0 +1,11 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Ensure shell scripts and config files stay in LF (Linux style)
+*.sh text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+
+# Force CRLF for Windows batch files
+*.bat text eol=crlf

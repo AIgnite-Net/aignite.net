@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "AIgnite.Net",
+  "display": "standalone",
+  "name": "AIgnite.Net",
+  "short_name": "AIgnite.Net",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}
