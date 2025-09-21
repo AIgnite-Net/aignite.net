@@ -1,4 +1,4 @@
-using Uno.Resizetizer;
+using Serilog;
 
 namespace AIgnite.Net;
 
@@ -35,6 +35,9 @@ public partial class App : Application
 #endif
                 .UseLogging(configure: (context, logBuilder) =>
                 {
+                    // Remove all logging providers as we are using logcat below
+                    logBuilder.ClearProviders();
+                    
                     // Configure log levels for different categories of logging
                     logBuilder
                         .SetMinimumLevel(
@@ -60,7 +63,31 @@ public partial class App : Application
                     //// Debug JS interop
                     //logBuilder.WebAssemblyLogLevel(LogLevel.Debug);
                 }, enableUnoLogging: true)
-                .UseSerilog(consoleLoggingEnabled: true, fileLoggingEnabled: true)
+                .UseSerilog(configureLogger: loggerConfig =>
+                {
+                    string outputTemplate;
+                    
+#if !__ANDROID__
+                    // All non-Android devices will have this template to mimic the usual Microsoft's log template
+                    outputTemplate =
+                        "{Timestamp:MM-dd HH:mm:ss.fffzzz} {Level:u1}/{SourceContext}: {Message:lj}{NewLine}{Exception}";
+
+                    // Configure Serilog to write to the Console
+                    loggerConfig.WriteTo.Console(outputTemplate: outputTemplate);
+#else
+                    // All non-Android devices will have this template to mimic the usual Microsoft's log template
+                    outputTemplate = 
+                        "{Timestamp:MM-dd HH:mm:ss.fff} {Level:u1}/{SourceContext}({ProcessId,4}): {Message:lj}{NewLine}{Exception}";
+                    
+                    // Configure Serilog to write to the Console too (along with log cat below)
+                    loggerConfig.WriteTo.Console(outputTemplate: outputTemplate);
+                    
+                    // Now, put this also in the logcat, but with a different template.
+                    // Android's logcat itself adds some details - so those details can be removed from the template.
+                    outputTemplate = "{Message:lj}{NewLine}{Exception}";
+                    loggerConfig.WriteTo.Logcat(tag: "AIgnite", outputTemplate: outputTemplate);
+#endif
+                })
                 .UseConfiguration(configure: configBuilder =>
                     configBuilder
                         .EmbeddedSource<App>()
@@ -87,8 +114,12 @@ public partial class App : Application
 #if DEBUG
         MainWindow.UseStudio();
 #endif
+      
+// TODO: Remove this workaround when #347 is fixed and merged. See:
+//       https://github.com/unoplatform/uno.resizetizer/issues/347
+#if __WINDOWS && !HAS_UNO        
         MainWindow.SetWindowIcon();
-
+#endif
         Host = await builder.NavigateAsync<Shell>();
     }
 
