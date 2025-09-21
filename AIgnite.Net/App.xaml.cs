@@ -117,7 +117,7 @@ public partial class App : Application
       
 // TODO: Remove this workaround when #347 is fixed and merged. See:
 //       https://github.com/unoplatform/uno.resizetizer/issues/347
-#if __WINDOWS && !HAS_UNO        
+#if WINDOWS && !HAS_UNO
         MainWindow.SetWindowIcon();
 #endif
         Host = await builder.NavigateAsync<Shell>();
