@@ -85,7 +85,9 @@ public partial class App : Application
                     // Now, put this also in the logcat, but with a different template.
                     // Android's logcat itself adds some details - so those details can be removed from the template.
                     outputTemplate = "{Message:lj}{NewLine}{Exception}";
-                    loggerConfig.WriteTo.Logcat(tag: "AIgnite", outputTemplate: outputTemplate);
+
+                    string defaultTag = Android.App.Application.Context.PackageName!;
+                    loggerConfig.WriteTo.Logcat(tag: defaultTag, outputTemplate: outputTemplate);
 #endif
                 })
                 .UseConfiguration(configure: configBuilder =>
