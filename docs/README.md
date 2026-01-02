@@ -44,7 +44,16 @@ While the likes of ChatGpt, Claude, etc. are great for generating small products
 
 # What is AIgnite.Net?
 
-AIgnite.Net is a .Net project that is to be used as a starting point for AI-based products. It is a simple Chatbot - and the backend is simple use of APIs to OpenAI / Ollama models (which, of course, can be replaced with any LLM of your choice). The idea is not to develop any complex use-cases, it is only to build a good backend architecture with plugable use-case models that you can develop and plugin.
+AIgnite.Net is a .Net project that is to be used as a starting point for AI-based products. It is a simple Customer-Service application with an intent to demonstrate enterprise-grade LLM-based products:
+- Scaling to upto 5000+ concurrent users
+- Robust API-first design
+- Cloud-agnostic backend, but also edge-ready
+- Conversational AI (but using OpenAI / Ollama models)
+- Event-driven analytics
+- Realtime Dashboards
+- Long-term AI insights
+
+The backend is simple use of APIs to OpenAI / Ollama models (which, of course, can be replaced with any LLM of your choice). The idea is not to develop any complex use-cases, it is only to build a good backend architecture with plugable use-case models that you can develop and plugin.
 
 # Tech stack
 
