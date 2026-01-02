@@ -24,7 +24,7 @@ We call this AIgnite - a moniker with "AI" and "Ignite" fused together - for ign
 
 # Phases of product creation
 
-Generally, every product gets created in two phases. The first phase (product-market-fit) is largely to spot problems and finalaise a "product idea" to solve those problems. The second phase is to actually create the product to run it in scale, both for for real value to customers and a financially viable business.
+Generally, every product gets created in two phases. The first phase (product-market-fit) is largely to spot problems and finalise a "product idea" to solve those problems. The second phase is to actually create the product to run it in scale, both for for real value to customers and a financially viable business.
 
 Phase-1 and Phase-2 repeatedly iterates to get the perfect balance for a viable business and the best customer value.
 
@@ -34,7 +34,7 @@ AIgnite.Net is to fit both the above phases of an AI-based .Net product. What we
 
 # Ethos of AIgnite.Net
 
-Well, LLMs are real. It is time that we embrace them - unlike in the intial days - even until 2024 or so, they were just toys. 2025 is the year to embrace them in products for real value. Any year before this was, well, a joke :-)
+Well, LLMs are real. It is time that we embrace them - unlike in the intial days - even until 2024 or so, they were just toys. 2025 is the year to embrace them in products for real value. Any year before this was, well, a joke :-) And come 2026, build Agents of AI! That's how it is going to be.
 
 While the likes of ChatGpt, Claude, etc. are great for generating small products with not-so-complex scale-needs, AIgnite.Net is to complement them with:
 
@@ -67,7 +67,7 @@ The tech stack is opinionated. The drivers for such a tech stack are:
 
 # How can you contribute?
 
-AIgnite.Net's github page is here: 
+AIgnite.Net's github page is here:
 
 [GitHub - AIgnite-Net/aignite.net: Starting point for .NET based LLM-centric, Agentic, and the next-big-thing projects...](https://github.com/AIgnite-Net/aignite.net)
 
