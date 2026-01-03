@@ -1,10 +1,10 @@
 # Credits
 
-AIgnite.Net is a very new project, started just at the end of August 2025. The vision is big, as you can imagine, so we need more people to make this happen.
+**TradeCraft** from **AIgnite.Net** is a very new project, started just at the end of August 2025. The vision is big, so we need more people to make this happen.
 
-It was started by [arvindd (Arvind Devarajan) · GitHub](https://github.com/arvindd/) - but, you can imagine, starting is easy. It requires just a creation of a github repo, getting the other community-infrastructures enabled (Conversations, documentations, etc.). The real work comes after that - and it requires guts, perseverance, and passion to keep it warm and running.
+It was started by [arvindd (Arvind Devarajan) · GitHub](https://github.com/arvindd/) - but, as you can imagine, starting is easy. It just required a creation of a github repo, getting the other community-infrastructures enabled (Conversations, documentations, etc.). 
 
-We will have contributors added here as they join and begin contributions. To contribute, [check here](../CONTRIBUTING.md).
+The real work comes after that - and it requires guts, perseverance, and passion to keep it warm and running. We will have contributors added here as they join and begin contributions. To contribute, [check here](../CONTRIBUTING.md).
 
 ## People
 
