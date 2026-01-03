@@ -60,24 +60,7 @@ The intent is to demonstrate enterprise-grade LLM-based products:
 
 The backend is simple use of APIs to OpenAI / Ollama models (which, of cour[README.md](../../../AIgnite.Net-/README.md)se, can be replaced with any LLM of your choice). The idea is not to develop any complex use-cases, it is only to build a good backend architecture with plugable use-case models that you can develop and plugin.
 
-# Tech stack
-
-## Drivers
-
-The tech stack is opinionated. The drivers for such a tech stack are:
-
-- Cross-platform (Windows, Linux, Mac, Android, iOS). We will also support WASM for browser-based applications.
-- Free for development and commercial use, atleast for indie developers and small businesses
-- Robust decoupling of backend and frontend
-- .NET-based - well, that's why we have this project in the first place :-)
-- Open source with permissive license - so it can simply be adapted for your needs
-
-## Stack
-
-- .NET (we will strive to be at the latest versions)
-- Uno platform for cross-platform development
-- XAML + MVUX as code and architectural patterns
-- OpenAI / Ollama API at the backend
+# 
 
 # How can you contribute?
 
