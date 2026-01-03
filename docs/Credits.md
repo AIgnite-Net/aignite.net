@@ -14,6 +14,7 @@ We will have contributors added here as they join and begin contributions. To co
 
 ## Organisations
 
-| Logo                                                          | Organisation               | Brief                                            | Acknowledgement                                        |
-|:-------------------------------------------------------------:|:--------------------------:| ------------------------------------------------ | ------------------------------------------------------ |
-| <img src="img/zulip-icon-circle.svg" alt="" data-size="line"> | [Zulip](https://zulip.com) | Zulip is an organized chat for distributed teams | Sponsors the cloud-standard community for AIgnite.Net. |
+| Logo                                                          | Organisation                          | Brief                                                                                 | Acknowledgement                                                   |
+|:-------------------------------------------------------------:|:-------------------------------------:| ------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| <img src="img/zulip-icon-circle.svg" alt="" data-size="line"> | [Zulip](https://zulip.com)            | Zulip is an organized chat for distributed teams                                      | Sponsors the cloud-standard community for AIgnite.Net.            |
+| <img src="img/uno-logo-tm-light.svg" alt="" data-size="line"> | [Uno Platform](https://platform.uno/) | Uno Platform helps in building cross-platform .NET applications Visually and with AI. | Sponsors the Uno Platform subscription - currently till Jan 2027. |
