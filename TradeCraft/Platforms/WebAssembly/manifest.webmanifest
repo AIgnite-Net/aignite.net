@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "TradeCraft",
+  "display": "standalone",
+  "name": "TradeCraft",
+  "short_name": "TradeCraft",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

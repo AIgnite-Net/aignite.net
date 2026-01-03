@@ -1,0 +1,42 @@
+<Project Sdk="Uno.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net10.0-android;net10.0-ios;net10.0-browserwasm;net10.0-desktop</TargetFrameworks>
+
+    <OutputType>Exe</OutputType>
+    <UnoSingleProject>true</UnoSingleProject>
+
+    <!-- Display name -->
+    <ApplicationTitle>TradeCraft</ApplicationTitle>
+    <!-- App Identifier -->
+    <ApplicationId>in.aignite.tradecraft</ApplicationId>
+    <!-- Versions -->
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <ApplicationVersion>1</ApplicationVersion>
+    <!-- Package Publisher -->
+    <ApplicationPublisher>AIgnite.Net</ApplicationPublisher>
+    <!-- Package Description -->
+    <Description>TradeCraft powered by Uno Platform.</Description>
+
+    <!--
+      UnoFeatures are used to quickly add and manage features enabled for your app.
+      https://aka.platform.uno/singleproject-features
+    -->
+    <UnoFeatures>
+      Lottie;
+      MediaElement;
+      Svg;
+      Hosting;
+      Toolkit;
+      Logging;
+      LoggingSerilog;
+      MVUX;
+      Configuration;
+      Navigation;
+      ThemeService;
+      SkiaRenderer;
+    </UnoFeatures>
+    <Company>AIgnite.Net</Company>
+    <Product>Trade Craft</Product>
+  </PropertyGroup>
+
+</Project>

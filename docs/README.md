@@ -1,10 +1,10 @@
 ---
-description: AIgnite Landing Page
+description: TradeCraft's Landing Page
 ---
 
 # Introduction
 
-AIgnite.Net is a template project for LLM-Centric, Agentic AI projects in .NET. Read on to understand why this was started and how you can contribute.
+TradeCraft is a template project for LLM-Centric, Agentic AI projects in .NET. Read on to understand why this was started and how you can contribute.
 
 # Initial Idea
 
@@ -18,9 +18,7 @@ What happens when the products are deployed and used in the field? How will fiel
 
 While there are definitely no right answer for these questions, and many of these are yet to be experienced, one aspect is certain: having a predictable backend architecture with a large number of common aspects built into it will take the speed of development and deployment to even greater heights.
 
-This thought drove the initial idea for development of a pluggable system that acts as a starting point for any AI projects.
-
-We call this AIgnite - a moniker with "AI" and "Ignite" fused together - for igniting your AI projects! We have the .Net in the name as this project aims to be the starting point for .NET AI projects.
+This thought drove the initial idea for development of a pluggable system that acts as a starting point for any AI project.
 
 # Phases of product creation
 
@@ -28,13 +26,15 @@ Generally, every product gets created in two phases. The first phase (product-ma
 
 Phase-1 and Phase-2 repeatedly iterates to get the perfect balance for a viable business and the best customer value.
 
-# Where does AIgnite.Net fit?
+# Where does TradeCraft fit?
 
-AIgnite.Net is to fit both the above phases of an AI-based .Net product. What we want to do is to decouple the backend and the front-end in such a manner that phase-1 can work with a minimal backend, and concentrate largely on the best front-end for demonstrations and a simple backend business logic. Phase-2 will be largely to take the backend, and build it for scale.
+TradeCraft is to fit both the above phases of an AI-based .Net product. What we want to do is to decouple the backend and the front-end in such a manner that phase-1 can work with a minimal backend, and concentrate largely on the best front-end for demonstrations and a simple backend business logic. Phase-2 will be largely to take the backend, and build it for scale.
 
-# Ethos of AIgnite.Net
+# Ethos of TradeCraft
 
-Well, LLMs are real. It is time that we embrace them - unlike in the intial days - even until 2024 or so, they were just toys. 2025 is the year to embrace them in products for real value. Any year before this was, well, a joke :-) And come 2026, build Agents of AI! That's how it is going to be.
+Well, LLMs are real. It is time that we embrace them - unlike in the intial days - even until 2024 or so, they were just toys. 2025 is the year to embrace them in products for real value. Any year before this was, well, a series of experiments to find the right "Plateau of productivity".
+
+And come 2026, build Agents of AI! That's how it is going to be.
 
 While the likes of ChatGpt, Claude, etc. are great for generating small products with not-so-complex scale-needs, AIgnite.Net is to complement them with:
 
@@ -42,18 +42,23 @@ While the likes of ChatGpt, Claude, etc. are great for generating small products
 - Robust API-first design, MCP-ready for future-proofing
 - Cloud-agnostic backend, but also edge-ready
 
-# What is AIgnite.Net?
+# What is TradeCraft Application?
 
-AIgnite.Net is a .Net project that is to be used as a starting point for AI-based products. It is a simple Customer-Service application with an intent to demonstrate enterprise-grade LLM-based products:
+TradeCraft is a .Net-based product. The TradeCraft project is to be used as a starting point for any of your own AI-based products.
+
+TradeCraft as such is a usable mock-trading gaming product. The game is simple: you play as a trader with an initial amount of ⟐30000 (i.e., 30k _Craftons_). Craftons are the official currency in the TradeCraft Universe, with the symbol ⟐ (a diamond with a dot in the center). TradeCraft shows the market price of various stocks (TBD: Fake market / real market exposing an API), and you can buy or sell them using the initial amount given to you. Basic portfolio list, dashboards, etc. are also provided for your insights.
+
+The intent is to demonstrate enterprise-grade LLM-based products:
+
 - Scaling to upto 5000+ concurrent users
 - Robust API-first design
 - Cloud-agnostic backend, but also edge-ready
-- Conversational AI (but using OpenAI / Ollama models)
-- Event-driven analytics
-- Realtime Dashboards
-- Long-term AI insights
+- Conversational AI (but using OpenAI / Ollama models). Buying and selling stocks is with a chat interface :-)
+- Event-driven analytics (buy event, sell event, portfolio changes, etc.)
+- Realtime Dashboards (market prices, insights)
+- Long-term AI insights (Portfolio performances)
 
-The backend is simple use of APIs to OpenAI / Ollama models (which, of course, can be replaced with any LLM of your choice). The idea is not to develop any complex use-cases, it is only to build a good backend architecture with plugable use-case models that you can develop and plugin.
+The backend is simple use of APIs to OpenAI / Ollama models (which, of cour[README.md](../../../AIgnite.Net-/README.md)se, can be replaced with any LLM of your choice). The idea is not to develop any complex use-cases, it is only to build a good backend architecture with plugable use-case models that you can develop and plugin.
 
 # Tech stack
 
@@ -71,13 +76,13 @@ The tech stack is opinionated. The drivers for such a tech stack are:
 
 - .NET (we will strive to be at the latest versions)
 - Uno platform for cross-platform development
-- C# Markup + MVUX as code and architectural patterns
+- XAML + MVUX as code and architectural patterns
 - OpenAI / Ollama API at the backend
 
 # How can you contribute?
 
-AIgnite.Net's github page is here:
+TradeCraft's github page is here:
 
-[GitHub - AIgnite-Net/aignite.net: Starting point for .NET based LLM-centric, Agentic, and the next-big-thing projects...](https://github.com/AIgnite-Net/aignite.net)
+[Starting point for LLM-Centric, Agentic AI, and the next-big-thing .NET projects](https://github.com/AIgnite-Net/tradecraft)
 
 To contribute, checkout the [CONTRIBUTING.md](https://github.com/AIgnite-Net/aignite.net/blob/main/CONTRIBUTING.md) file.
