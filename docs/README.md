@@ -83,6 +83,6 @@ The tech stack is opinionated. The drivers for such a tech stack are:
 
 TradeCraft's github page is here:
 
-[Starting point for LLM-Centric, Agentic AI, and the next-big-thing .NET projects](https://github.com/AIgnite-Net/tradecraft)
+[Starting point for LLM-Centric, Agentic AI, and the next-big-thing .NET projects](https://github.com/aignite-net/tradecraft)
 
-To contribute, checkout the [CONTRIBUTING.md](https://github.com/AIgnite-Net/aignite.net/blob/main/CONTRIBUTING.md) file.
+To contribute, checkout the [CONTRIBUTING.md](https://github.com/aignite-net/tradecraft/blob/main/CONTRIBUTING.md) file.
